@@ -17,9 +17,7 @@ public:
             "raw");
 
         publisher_ = image_transport::create_publisher(this, "camera/image_blended_gray");
-        timer_ = this->create_wall_timer(
-            std::chrono::milliseconds(10),
-            std::bind(&ImageSubscriber::timer_callback1, this));
+
     }
 
 private:
@@ -29,11 +27,6 @@ private:
     {
         image = cv_bridge::toCvCopy(msg, "bgr8")->image;
         cvtColor(image, gray_image, COLOR_BGR2GRAY);
-    }
-
-    void timer_callback1()
-    {
-
         if (image.empty())
         {
             RCLCPP_ERROR(this->get_logger(), "Failed to load image");
@@ -52,10 +45,8 @@ private:
         imshow("Subscribe GRAY",gray_image);
         waitKey(1);
     }
-
     image_transport::Subscriber subscriber_;
     image_transport::Publisher publisher_;
-    rclcpp::TimerBase::SharedPtr timer_;
 };
 
 int main(int argc, char **argv)

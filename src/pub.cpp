@@ -30,7 +30,7 @@ public:
   {
     publisher_ = image_transport::create_publisher(this, "camera/image");
     timer_ = this->create_wall_timer(
-        std::chrono::milliseconds(100),
+        std::chrono::milliseconds(10),
         std::bind(&ImagePublisher::timer_callback, this));
   }
 
