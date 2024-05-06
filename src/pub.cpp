@@ -5,7 +5,6 @@
 #include <opencv2/opencv.hpp>
 
 using namespace cv;
-using std::cin;
 using std::cout;
 using std::endl;
 
