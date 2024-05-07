@@ -1,3 +1,32 @@
 {
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "python.autoComplete.extraPaths": [
+        "/home/yupeng/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/more_interfaces/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/learning_tf2_py/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yupeng/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/more_interfaces/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/learning_tf2_py/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages",
+        "/home/yupeng/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "ros.distro": "foxy"
 }
